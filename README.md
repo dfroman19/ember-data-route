@@ -10,6 +10,8 @@ Any routes you deactivate will check the `model` to ensure it is not
 unsaved. If it is it will either rollback or remove the model from the
 store depending if has been previously persisted.
 
+Updated to account for deprecations added to Ember Data 1.13.
+
 ## Install ##
 
 ```bash
